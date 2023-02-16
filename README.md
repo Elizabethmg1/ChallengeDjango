@@ -1,6 +1,12 @@
 # ChallengeDjango
 
-En primer lugar se creo el proyecto con django-admin startproject,
+En primer lugar y como buena practica se creo el enviroment en donde tendremos todos los modulos a utilizar,
+
+estos fueron guardados en el archivo requirements.text
+
+## Para el proyecto:
+
+Se creo el proyecto con django-admin startproject,
 
 luego se descargo postgresSQL y se creo una base de datos para visualizar las tablas creadas,
 
