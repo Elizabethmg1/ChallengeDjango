@@ -15,7 +15,7 @@ luego se hiso la conexion a la base de datos en el archivo settings del proyecto
 ## Para la tarea 1:
 En primer lugar se creo la app con nombre "app" con el comando python manage.py startapp y se la agrego al archivo settings en la parte APPS,
 
-luego se comenzo a editar el archivo modelos con la tabla especificada para la API requerida,
+luego se comenzo a editar el archivo modelos con la tabla especificada para la API requerida, y se la cargo con el comando makemigrations y migrate
 
 se creo el archivo API la cual toma la API especificada y extrae su informacion.
 
@@ -32,7 +32,7 @@ tambien se edito el archivo admin de la app para que al crear el usuario con pyt
 ## Para la tarea 2:
 En primer lugar se creo la app con nombre "app1" con el comando python manage.py startapp y se la agrego al archivo settings en la parte APPS,
 
-luego se comenzo a editar el archivo modelos con la tabla especificada para la data requerida,
+luego se comenzo a editar el archivo modelos con la tabla especificada para la data requerida, y se la cargo con el comando makemigrations y migrate
 
 se creo el archivo "scraping" el cual scrapea los datos de la pagina solicitada, esta editado para que solo traiga datos de solo 3 paginas para probar pero se puede quitar esta linea y hace scraping de todas las paginas, este scraping utiliza threads para que sea mas rapido el proceso,
 
